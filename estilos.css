@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans';
+}
+
+
+body {
+    background-image: linear-gradient(rgba(39, 42, 54, 0.75), rgba(39, 42, 54, 0.75)),
+    url(fondo_uni2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.imagen{
+    width: 200px;
+    margin-left: 55px;
+    margin-top: 50px;
+}
+
+.Logo{
+    padding: 25px 30px;
+    font-weight: bold;
+    color: white;
+    font-size: 1.6em;
+    position: absolute;
+    top: 45%;
+
+    font-weight: 500;
+    color: #fff;
+    text-shadow: 0 0 5px #f40303,
+    0 0 25px #f40303, 
+    0 0 50px #f40303,
+    0 0 100px #f40303;
+    letter-spacing: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 1s;
+}
+
+h1{
+    padding: 25px 30px;
+    font-weight: bold;
+    color: white;
+    font-size: 1.6em;
+    position: absolute;
+    top: 0%;
+
+    font-weight: 500;
+    color: #fff;
+    text-shadow: 0 0 5px #f40303,
+    0 0 25px #f40303, 
+    0 0 50px #f40303,
+    0 0 100px #f40303;
+    letter-spacing: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 1s;
+}
+
+
+h2{
+    padding: 25px 30px;
+    font-weight: bold;
+    color: white;
+    font-size: 1.6em;
+
+    font-weight: 500;
+    color: #fff;
+    text-shadow: 0 0 5px #f40303,
+    0 0 25px #f40303, 
+    0 0 50px #f40303,
+    0 0 100px #03e9f4;
+    letter-spacing: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 1s;
+}
+
+nav {
+    max-width: 900px;
+    margin: auto;
+    background-color: #333;
+    font-size: 20px;
+    margin-top: 25px;
+}
+
+
+.menu-horizontal {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu-horizontal > li > a{
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+} 
+
+.menu-horizontal > li:hover{
+    background-color: red;
+}
+
+.menu-vertical{
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 200px;
+    background-color: rgba(0,0,0,.5);
+}
+
+.menu-horizontal li:hover .menu-vertical{
+    display: block;
+}
+
+.menu-vertical li:hover{
+    background-color: rgb(107, 107, 107);
+}
+
+.menu-vertical  li a{
+    display: block;
+    color: white;
+    padding: 15px 15px 15px 20px;
+    text-decoration: none;
+}
+
+
+.footer:buttons {
+    min-width: 700px;
+    display: flex; 
+    justify-content: space-around; 
+    margin-top: 330px;
+  }
+  
+.buttons a {
+    text-decoration: none;
+    font-size: 28px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background: #4e0202;
+    color: #f1f1f1;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+    transition: all .4s ease-in-out;
+  }
+  
+.buttons a:hover {
+    transform: scale(0.9);
+  }
+
+footer {
+    background-image: linear-gradient(rgba(32, 32, 32, 0.75), rgba(32, 32, 32, 0.75));
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+    height: 4rem;
+    color: rgb(46, 46, 46);
+}
+
+.piedepagina{
+    padding: 25px 0px;
+    font-weight: bold;
+    color: white;
+    font-size: 1.6em;
+
+    font-weight: 500;
+    color: #fff;
+    text-shadow: 0 0 5px #f40303,
+    0 0 25px #f40303, 
+    0 0 50px #f40303,
+    0 0 100px #03e9f4;
+    letter-spacing: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 1s;
+}
+
+.infografia{
+    margin-left: 350px;
+}
+
+.Mision{
+    width: 700px;
+    margin-left: 40px;
+}
+
+.Vision{
+    width: 700px;
+    margin-left: 45px;
+}
+
+.pdf{
+    width: 1200px;
+    height: 700px;
+    margin-top: 50px;
+}
+
+.mapa{
+    width: 1200px;
+    height: 700px;
+    margin-top: 50px;
+}
+
+.contexto{
+    width: 1200px;
+    margin-top: 50px;
+}
+
+.parque{
+    width: 1200px;
+    margin-top: 50px;
+}
+
+.doc{
+    margin-top: 50px;
+    width: 1200px;
+    height: 800px;
+}
+
+.vistas { 
+    width: 1200px;
+    height: 800px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.video {
+    width: 1200px;
+    height: 800px;
+    margin-top: 50px;
+}
